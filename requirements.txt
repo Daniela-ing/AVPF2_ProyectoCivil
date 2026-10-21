@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+openpyxl
+reportlab
+plotly   # opcional: si está instalado, el script valida las figuras contra el esquema de Plotly

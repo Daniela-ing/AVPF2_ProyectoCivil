@@ -1,0 +1,309 @@
+{
+ "lab_limpieza": {
+  "registros_inicial": 48,
+  "nulos": 0,
+  "registros_final": 48
+ },
+ "epa_limpieza": {
+  "registros_inicial": 380,
+  "filas_resumen_eliminadas": 1,
+  "registros_final": 379,
+  "campanas_fecha": 70
+ },
+ "lab_desc": {
+  "Porosidad_pct": {
+   "count": 48.0,
+   "mean": 16.5,
+   "std": 3.39,
+   "min": 12.0,
+   "25%": 14.25,
+   "50%": 16.5,
+   "75%": 18.75,
+   "max": 21.0,
+   "CV_pct": 20.543
+  },
+  "Relacion_agua_cemento": {
+   "count": 48.0,
+   "mean": 0.25,
+   "std": 0.041,
+   "min": 0.2,
+   "25%": 0.2,
+   "50%": 0.25,
+   "75%": 0.3,
+   "max": 0.3,
+   "CV_pct": 16.503
+  },
+  "Resistencia_compresion_MPa": {
+   "count": 48.0,
+   "mean": 28.819,
+   "std": 13.196,
+   "min": 7.6,
+   "25%": 20.35,
+   "50%": 27.8,
+   "75%": 36.0,
+   "max": 56.9,
+   "CV_pct": 45.79
+  },
+  "Permeabilidad_mm_s": {
+   "count": 48.0,
+   "mean": 1.385,
+   "std": 0.975,
+   "min": 0.12,
+   "25%": 0.61,
+   "50%": 1.23,
+   "75%": 2.15,
+   "max": 4.5,
+   "CV_pct": 70.4
+  }
+ },
+ "lab_corr": {
+  "Porosidad_pct": {
+   "Porosidad_pct": 1.0,
+   "Relacion_agua_cemento": 0.0,
+   "Resistencia_compresion_MPa": -0.545,
+   "Permeabilidad_mm_s": 0.692
+  },
+  "Relacion_agua_cemento": {
+   "Porosidad_pct": 0.0,
+   "Relacion_agua_cemento": 1.0,
+   "Resistencia_compresion_MPa": 0.597,
+   "Permeabilidad_mm_s": -0.405
+  },
+  "Resistencia_compresion_MPa": {
+   "Porosidad_pct": -0.545,
+   "Relacion_agua_cemento": 0.597,
+   "Resistencia_compresion_MPa": 1.0,
+   "Permeabilidad_mm_s": -0.59
+  },
+  "Permeabilidad_mm_s": {
+   "Porosidad_pct": 0.692,
+   "Relacion_agua_cemento": -0.405,
+   "Resistencia_compresion_MPa": -0.59,
+   "Permeabilidad_mm_s": 1.0
+  }
+ },
+ "lab_por_ac": {
+  "0.2": {
+   "Resistencia_compresion_MPa": 15.44,
+   "Permeabilidad_mm_s": 1.9
+  },
+  "0.25": {
+   "Resistencia_compresion_MPa": 36.48,
+   "Permeabilidad_mm_s": 1.32
+  },
+  "0.3": {
+   "Resistencia_compresion_MPa": 34.54,
+   "Permeabilidad_mm_s": 0.94
+  }
+ },
+ "lab_por_poro": {
+  "12": {
+   "Resistencia_compresion_MPa": 39.32,
+   "Permeabilidad_mm_s": 0.51
+  },
+  "15": {
+   "Resistencia_compresion_MPa": 30.36,
+   "Permeabilidad_mm_s": 1.16
+  },
+  "18": {
+   "Resistencia_compresion_MPa": 26.06,
+   "Permeabilidad_mm_s": 1.48
+  },
+  "21": {
+   "Resistencia_compresion_MPa": 19.53,
+   "Permeabilidad_mm_s": 2.39
+  }
+ },
+ "comp_agregado_5_10": {
+  "granito_MPa": 26.9,
+  "dolerita_MPa": 31.27
+ },
+ "lab_anomalias": [
+  {
+   "Agregado": "Granite",
+   "Gradacion": "10-15 mm",
+   "Porosidad_pct": 21,
+   "Relacion_agua_cemento": 0.2,
+   "Resistencia_compresion_MPa": 9.6,
+   "Permeabilidad_mm_s": 4.5
+  }
+ ],
+ "epa_desc": {
+  "PICP nuevo (2017-2020)": {
+   "count": 175.0,
+   "mean": 8184.0,
+   "std": 6888.0,
+   "min": 79.0,
+   "25%": 1241.0,
+   "50%": 8843.0,
+   "75%": 14684.0,
+   "max": 22889.0
+  },
+  "PICP original (2009-2012)": {
+   "count": 204.0,
+   "mean": 20557.0,
+   "std": 5795.0,
+   "min": 571.0,
+   "25%": 17762.0,
+   "50%": 21070.0,
+   "75%": 23925.0,
+   "max": 32892.0
+  }
+ },
+ "epa_anual": {
+  "PICP nuevo (2017-2020)|2017": {
+   "count": 60,
+   "mean": 13377.0
+  },
+  "PICP nuevo (2017-2020)|2018": {
+   "count": 51,
+   "mean": 6486.0
+  },
+  "PICP nuevo (2017-2020)|2019": {
+   "count": 48,
+   "mean": 5132.0
+  },
+  "PICP nuevo (2017-2020)|2020": {
+   "count": 16,
+   "mean": 3270.0
+  },
+  "PICP original (2009-2012)|2009": {
+   "count": 6,
+   "mean": 24250.0
+  },
+  "PICP original (2009-2012)|2010": {
+   "count": 66,
+   "mean": 23288.0
+  },
+  "PICP original (2009-2012)|2011": {
+   "count": 90,
+   "mean": 19269.0
+  },
+  "PICP original (2009-2012)|2012": {
+   "count": 42,
+   "mean": 18497.0
+  }
+ },
+ "epa_anomalias": {
+  "PICP nuevo (2017-2020)": 0,
+  "PICP original (2009-2012)": 9
+ },
+ "perdida_infiltracion_pct": {
+  "PICP nuevo (2017-2020)": 75.6,
+  "PICP original (2009-2012)": 23.7
+ },
+ "pct_colmatacion_nuevo": 48.6,
+ "epa_corr_nuevo": {
+  "Infiltracion_mm_h": {
+   "Infiltracion_mm_h": 1.0,
+   "Dias": -0.533,
+   "Dist_bordillo_m": 0.352,
+   "Dist_borde_m": 0.597
+  },
+  "Dias": {
+   "Infiltracion_mm_h": -0.533,
+   "Dias": 1.0,
+   "Dist_bordillo_m": -0.195,
+   "Dist_borde_m": -0.197
+  },
+  "Dist_bordillo_m": {
+   "Infiltracion_mm_h": 0.352,
+   "Dias": -0.195,
+   "Dist_bordillo_m": 1.0,
+   "Dist_borde_m": 0.081
+  },
+  "Dist_borde_m": {
+   "Infiltracion_mm_h": 0.597,
+   "Dias": -0.197,
+   "Dist_bordillo_m": 0.081,
+   "Dist_borde_m": 1.0
+  }
+ },
+ "kpis": [
+  [
+   "Resistencia media (lab)",
+   "28.8",
+   "MPa"
+  ],
+  [
+   "Permeabilidad media (lab)",
+   "1.39",
+   "mm/s"
+  ],
+  [
+   "Mezclas con f'c ≥ 20 MPa y k ≥ 1.0 mm/s*",
+   "42",
+   "% (20 de 48)"
+  ],
+  [
+   "Correlación f'c – k (r)",
+   "-0.59",
+   "Pearson"
+  ],
+  [
+   "Ensayos de campo con fecha",
+   "379",
+   "70 fechas, 2009–2020"
+  ],
+  [
+   "Pérdida de infiltración PICP nuevo",
+   "76",
+   "% entre 2017 y 2020"
+  ],
+  [
+   "Pérdida de infiltración PICP original",
+   "24",
+   "% entre 2009/10 y 2012"
+  ],
+  [
+   "Ensayos con colmatación (PICP nuevo)",
+   "49",
+   "% 'Clogging' o 'Clogged'"
+  ]
+ ],
+ "modelo_lab": {
+  "lineal_k": {
+   "pendiente": -7.984,
+   "intercepto": 39.876,
+   "R2": 0.348
+  },
+  "polinomial2": {
+   "R2": 0.865,
+   "R2_cv": 0.807,
+   "RMSE_MPa": 4.79,
+   "pred_poro15_ac025_MPa": 39.1
+  }
+ },
+ "modelo_campo": {
+  "PICP nuevo (2017-2020)": {
+   "R2_medias_mensuales": 0.891,
+   "n_meses": 11,
+   "R2_ensayos_individuales": 0.309,
+   "tasa_decaimiento_pct_por_100_dias": 13.0,
+   "pred_dia_1500_mm_h": 2558.0
+  },
+  "PICP original (2009-2012)": {
+   "R2_medias_mensuales": 0.444,
+   "n_meses": 27,
+   "R2_ensayos_individuales": 0.104,
+   "tasa_decaimiento_pct_por_100_dias": 3.2,
+   "pred_dia_1500_mm_h": 14842.0
+  }
+ },
+ "interpretaciones": {
+  "hist": "La resistencia media es 28.8 MPa con CV de 46%. La cola izquierda (7.6–27 MPa) corresponde casi por completo a a/c = 0.20, pasta rígida que no envuelve bien al agregado.",
+  "scatter": "Existe relación inversa (r = -0.59), pero la permeabilidad explica solo el 35% de la variabilidad de f'c: no basta como único predictor de diseño.",
+  "heat": "La permeabilidad se asocia sobre todo a la porosidad (r = 0.692); porosidad y a/c son independientes (r ≈ 0), propio de un diseño factorial balanceado, lo que permite separar sus efectos.",
+  "serie": "El PICP nuevo pierde 76% de su infiltración entre 2017 y 2020, mientras que el PICP original pierde 24% en 2009-2012: la colmatación avanza de forma rápida y acelerada al inicio de la vida útil.",
+  "box": "La dispersión es muy alta dentro de cada año (colmatación localizada). Se detectaron 0 anomalías (IQR) en el PICP nuevo y 9 en el original; son puntos críticos que conviene inspeccionar en obra, no errores de medición a descartar.",
+  "m_lab": "El modelo polinomial grado 2 alcanza R² = 0.865 (validación cruzada 0.807, RMSE 4.79 MPa). Predicción de ejemplo: porosidad 15% y a/c 0.25 → 39.1 MPa.",
+  "m_campo": "La regresión lineal sobre ln(infiltración) implica una caída de 13.0% cada 100 días. Con medias mensuales el ajuste es R² = 0.891 (n = 11 meses), pero con ensayos individuales cae a 0.309: la edad explica la tendencia, no la variabilidad espacial. La proyección a 1500 días (2558 mm/h) es una extrapolación orientativa."
+ },
+ "conclusiones": [
+  "Porosidad: al subir de 12% a 21% la resistencia media baja de 39.32 a 19.53 MPa y la permeabilidad sube de 0.51 a 2.39 mm/s. Pavimentos de tráfico ligero: 12–15%; filtración y drenaje: 18–21%.",
+  "Relación a/c: la resistencia media es 15.44 MPa con a/c = 0.20 frente a 36.48 MPa con 0.25; se recomienda 0.25–0.30 y no bajar de 0.25.",
+  "Agregado (comparación equivalente, gradación 5-10 mm): dolerita 31.27 MPa vs. granito 26.9 MPa. La dolerita solo se ensayó con una gradación, por lo que la ventaja no puede generalizarse sin más datos.",
+  "Campo: la infiltración inicial del PICP nuevo (~13377 mm/h en 2017) cae a ~3270 mm/h en 2020 y el 49% de sus ensayos se clasifica como colmatación. Se debe programar inspección con ASTM C1701 y mantenimiento preventivo desde los primeros años.",
+  "Limitaciones: los datos de laboratorio y de campo provienen de materiales y métodos distintos (concreto permeable en probetas vs. adoquines permeables in situ); se usan de forma complementaria, no como un mismo experimento. n = 48 en laboratorio, sin fechas de ensayo; la proyección de campo es extrapolación."
+ ]
+}
